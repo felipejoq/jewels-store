@@ -9,13 +9,16 @@ donde se pueden ver todos los requerimientos para aprobar o no.
 
 ## 📚 Servicios:
 > Obtiene listado de Joyas en formato "HATEOAS".
-> ```GET /joyas?limits=3&page=2&order_by=stock_ASC```
+
+```GET /joyas?limits=3&page=2&order_by=stock_ASC```
 
 > Obtiene una joya por ID
-> ```GET /joyas/joya/1```
+
+```GET /joyas/joya/1```
 
 > Obtiene joyas según filtros, puede ser uno o todos, estos son todos los permitidos.
-> ```GET /joyas/filtros?precio_min=25000&precio_max=30000&categoria=aros&metal=plata```
+
+```GET /joyas/filtros?precio_min=25000&precio_max=30000&categoria=aros&metal=plata```
 
 ## 🚀 Desplegar en local:
 - Requisitos:
